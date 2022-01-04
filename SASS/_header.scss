@@ -1,0 +1,14 @@
+.header_li{
+    text-decoration: none;
+    list-style: none;
+    .header_a{
+        font-family: maven pro;
+        text-decoration: none;
+        color:springgreen;
+        transition: height 2s, width 1s;
+        margin: 10px;
+        .header_a:hover {
+            color: rgb(245, 191, 218);
+ }
+ }
+ }
