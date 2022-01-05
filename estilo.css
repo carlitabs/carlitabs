@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;600&display=swap");
+.img-fluid {
+  margin-left: 300px;
+  width: 700px;
+  height: 600px;
+}
+.body{
+  background-color: red;
+}
+
+.newsletter {
+  width: 500px;
+  font-family: maven pro;
+  margin: 10px;
+  color: springgreen;
+}
+
+.col {
+  margin: 10px;
+  font-family: maven pro;
+}
+
+.col-sm-10 {
+  margin: 10px;
+}
+
+.nav-item {
+  width: 100px;
+  height: 100px;
+}
+
+.header_li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header_a {
+  font-family: maven pro;
+  text-decoration: none;
+  color: springgreen;
+  -webkit-transition: height 2s, width 1s;
+  transition: height 2s, width 1s;
+  margin: 10px;
+}
+
+.header_a:hover {
+  color: #f5bfda;
+}
+
+.comprar {
+  margin: 30px;
+  width: 300px;
+  font-family: maven pro;
+  font-size: 30px;
+  color: chartreuse;
+  -webkit-animation-name: mianimacion;
+          animation-name: mianimacion;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  margin-left: 400px;
+}
+
+@-webkit-keyframes mianimacion {
+  0% {
+    background-color: black;
+  }
+  30% {
+    background-color: #e72727;
+  }
+  50% {
+    background-color: #84f528;
+  }
+  98% {
+    background-color: red;
+  }
+}
+
+@keyframes mianimacion {
+  0% {
+    background-color: black;
+  }
+  30% {
+    background-color: #e72727;
+  }
+  50% {
+    background-color: #84f528;
+  }
+  98% {
+    background-color: red;
+  }
+}
+
+.carousel-inner {
+  margin: 20px;
+  padding: 30px;
+  width: 50px;
+  height: 100px;
+}
+
+.comprar1 {
+  color: hotpink;
+  font-family: maven pro;
+  font-size: 30px;
+  margin: 50px;
+}
+
+.presentacion {
+  width: 700px;
+  text-align: justify;
+  font-family: maven pro;
+  font-size: 20px;
+  margin: 300px;
+  color: hotpink;
+}
+
+.reclamocaja {
+  font-family: maven pro;
+  color: hotpink;
+  text-align: justify;
+}
+
+.reclamo {
+  font-family: maven pro;
+  color: hotpink;
+  text-align: justify;
+}
+
+.form-floating {
+  margin: 20px;
+  width: 900px;
+}
+
+.cuidados {
+  width: 500px;
+  height: 600px;
+  text-align: justify;
+  font-family: maven pro;
+  margin: 50px;
+  padding: 10px;
+  color: hotpink;
+}
+
+@media (max-width: 600px) {
+  .presentacion {
+    margin-left: 0px;
+    width: 400px;
+    height: 300px;
+  }
+  .cuidados {
+    margin-left: 0px;
+    width: 400px;
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
